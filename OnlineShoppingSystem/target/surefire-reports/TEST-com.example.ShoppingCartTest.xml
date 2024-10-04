@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.ShoppingCartTest" time="0.001" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\hp 640\Desktop\java\OnlineShoppingSystem\target\test-classes;C:\Users\hp 640\Desktop\java\OnlineShoppingSystem\target\classes;C:\Users\hp 640\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\hp 640\.m2\repository\org\mockito\mockito-core\4.5.1\mockito-core-4.5.1.jar;C:\Users\hp 640\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\hp 640\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.9\byte-buddy-agent-1.12.9.jar;C:\Users\hp 640\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\hp 640\AppData\Local\Temp\surefire17928755834980602062\surefirebooter-20241003094808167_3.jar C:\Users\hp 640\AppData\Local\Temp\surefire17928755834980602062 2024-10-03T09-48-07_904-jvmRun1 surefire-20241003094808167_1tmp surefire_0-20241003094808167_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\hp 640\Desktop\java\OnlineShoppingSystem\target\test-classes;C:\Users\hp 640\Desktop\java\OnlineShoppingSystem\target\classes;C:\Users\hp 640\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\hp 640\.m2\repository\org\mockito\mockito-core\4.5.1\mockito-core-4.5.1.jar;C:\Users\hp 640\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\hp 640\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.9\byte-buddy-agent-1.12.9.jar;C:\Users\hp 640\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\hp 640"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-03-19"/>
+    <property name="java.home" value="C:\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\hp 640\Desktop\java\OnlineShoppingSystem"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp 640\AppData\Local\Temp\surefire17928755834980602062\surefirebooter-20241003094808167_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22+36-2370"/>
+    <property name="user.name" value="hp 640"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\hp 640\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP640~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="22"/>
+    <property name="user.dir" value="C:\Users\hp 640\Desktop\java\OnlineShoppingSystem"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Java\jdk-22\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\nodejs\;C:\Users\hp 640\AppData\Local\Microsoft\WindowsApps;C:\Users\hp 640\Desktop\flutter_windows_3.3.10-stable\flutter\bin;C:\Users\hp 640\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hp 640\AppData\Local\Pub\Cache\bin;C:\Users\hp 640\Desktop\faiz\firebase-tools-instant-win.exe;C:\Users\hp 640\AppData\Roaming\Python\Python312\Scripts;C:\Program Files\Git\ or C:\Program Files (x86)\Git\;C:\Users\hp 640\AppData\Roaming\npm;C:\Users\hp 640\Desktop\java\apache-maven-3.9.9\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22+36-2370"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="testAddToCart" classname="com.example.ShoppingCartTest" time="0.0"/>
+  <testcase name="testRemoveFromCart" classname="com.example.ShoppingCartTest" time="0.0"/>
+  <testcase name="testAddToFavorites" classname="com.example.ShoppingCartTest" time="0.0"/>
+  <testcase name="testCheckout" classname="com.example.ShoppingCartTest" time="0.0"/>
+</testsuite>
